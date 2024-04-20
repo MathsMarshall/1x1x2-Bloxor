@@ -1,6 +1,6 @@
 import copy
 class cuboid1x1x2full():
-    def __init__(self, coordinate: tuple[tuple], grid: str):
+    def __init__(self, coordinate: tuple[tuple], grid: set[tuple]):
         self.coordinate = coordinate # tuple of tuples
         self.path = '' # string of direction
         self.recall = '' # string of reverse direction
